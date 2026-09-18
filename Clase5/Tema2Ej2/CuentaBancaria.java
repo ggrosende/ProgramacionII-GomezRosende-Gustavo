@@ -1,4 +1,4 @@
-package Clase3.Tema2Ej2;
+package Clase5.Tema2Ej2;
 
 public class CuentaBancaria {
     private String titular;
@@ -50,5 +50,8 @@ public class CuentaBancaria {
         }
         this.saldo-= monto;
         System.out.println("Extracción realizada, usted extrajo: $ " + monto + ". Su saldo actual es de: $" + this.saldo);
+    }
+    public class void main(String[] args){
+        CuentaBancaria cuenta = new CuentaBancaria(1000);
     }
 }
