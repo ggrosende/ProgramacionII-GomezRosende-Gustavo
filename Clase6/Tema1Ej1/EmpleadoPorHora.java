@@ -1,4 +1,4 @@
-package Clase5.Enunciado18;
+package Clase6.Tema1Ej1;
 public class EmpleadoPorHora extends Empleado {
     
     private double horasTrabajadas;
@@ -15,6 +15,6 @@ public class EmpleadoPorHora extends Empleado {
     }
     public static void main(String [] args) {
         Empleado empleado = new EmpleadoPorHora( "Gustavo", 31254, 35, 56000);
-        System.out.println(empleado);
+        System.out.println("Su Salario es de $ " + empleado.calcularSueldo());
     }
 }

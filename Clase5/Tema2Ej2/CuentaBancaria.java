@@ -2,9 +2,11 @@ package Clase5.Tema2Ej2;
 
 public class CuentaBancaria {
     private String titular;
+    @SuppressWarnings("FieldMayBeFinal")
     private int numeroCuenta;
     private double saldo;
 
+    @SuppressWarnings("OverridableMethodCallInConstructor")
     public CuentaBancaria(String titular, int numeroCuenta, double saldoInicial) {
         setTitular(titular);
         this.numeroCuenta = numeroCuenta;
@@ -51,7 +53,7 @@ public class CuentaBancaria {
         this.saldo-= monto;
         System.out.println("Extracción realizada, usted extrajo: $ " + monto + ". Su saldo actual es de: $" + this.saldo);
     }
-    public class void main(String[] args){
-        CuentaBancaria cuenta = new CuentaBancaria(titular, 1000, numeroCuenta);
+    public static void main(String[] args){
+        CuentaBancaria cuenta = new CuentaBancaria("Gustavo", 3999, 45613);
     }
 }

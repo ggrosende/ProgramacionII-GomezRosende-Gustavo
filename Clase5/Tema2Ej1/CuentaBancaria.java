@@ -1,4 +1,4 @@
-package Clase3.Tema2Ej1;
+package Clase5.Tema2Ej1;
 
 public class CuentaBancaria {
     private String titular;

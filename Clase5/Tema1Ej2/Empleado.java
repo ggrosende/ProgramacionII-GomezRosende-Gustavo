@@ -1,4 +1,4 @@
-package Clase3.Tema1Ej2;
+package Clase5.Tema1Ej2;
 public class Empleado{
     private String nombre;
     private int legajo;
