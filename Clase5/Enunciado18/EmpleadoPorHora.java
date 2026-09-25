@@ -1,3 +1,4 @@
+package Clase5.Enunciado18;
 public class EmpleadoPorHora extends Empleado {
     
     private double horasTrabajadas;
@@ -7,5 +8,13 @@ public class EmpleadoPorHora extends Empleado {
         super(nombre, legajo);
         this.horasTrabajadas = horasTrabajadas;
         this.valorHora = valorHora;
+    }
+    @Override 
+    public double calcularSueldo(){
+        return horasTrabajadas*valorHora;
+    }
+    public static void main(String [] args) {
+        Empleado empleado = new EmpleadoPorHora( "Gustavo", 31254, 35, 56000);
+        System.out.println(empleado);
     }
 }

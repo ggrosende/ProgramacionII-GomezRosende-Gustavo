@@ -1,3 +1,4 @@
+package Clase5.Enunciado18;
 public class Empleado{
     protected String nombre;
     protected int legajo;
@@ -13,6 +14,6 @@ public class Empleado{
     
     @Override
     public String toString(){
-        return nombre + "() Legajo: " + legajo + ") $" + calcularSueldo();
+        return nombre + "|| Legajo: " + legajo + " || $" + calcularSueldo();
     }
 }

@@ -52,6 +52,6 @@ public class CuentaBancaria {
         System.out.println("Extracción realizada, usted extrajo: $ " + monto + ". Su saldo actual es de: $" + this.saldo);
     }
     public class void main(String[] args){
-        CuentaBancaria cuenta = new CuentaBancaria(1000);
+        CuentaBancaria cuenta = new CuentaBancaria(titular, 1000, numeroCuenta);
     }
 }
