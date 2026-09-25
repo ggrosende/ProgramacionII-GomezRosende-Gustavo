@@ -20,7 +20,6 @@ public class CuentaBancaria {
         return saldo;
     }
 
-     
     public CuentaBancaria(String titular, int numeroCuenta){
         this(titular, numeroCuenta, 0.0);
     }
@@ -57,6 +56,10 @@ public class CuentaBancaria {
         System.out.println("Extracción realizada, usted extrajo: $ " + monto + ". Su saldo actual es de: $" + this.saldo);
     }
     public static  void main(String[] args){
-        CuentaBancaria cuenta = new CuentaBancaria("Gustavo", 1000);
+
+        CuentaBancaria cuenta1 = new CuentaBancaria("Gustavo", 9000);
+        CuentaBancaria cuenta2 = new CuentaBancaria("José", 2000);
+        System.out.println(cuenta1);
+        System.out.println(cuenta2);
     }
 }
